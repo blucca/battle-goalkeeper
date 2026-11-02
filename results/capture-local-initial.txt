@@ -1,0 +1,42 @@
+WIN   vs brawler seed 2654435761 side 0  hill_locked t=4721  dealt  20 taken 269  refused 160
+WIN   vs brawler seed 2654435761 side 1  hill_locked t=4721  dealt  44 taken 252  refused 160
+WIN   vs brawler seed 1013904226 side 0  hill_locked t=4641  dealt  21 taken 140  refused 160
+WIN   vs brawler seed 1013904226 side 1  hill_locked t=4781  dealt  34 taken 390  refused 160
+WIN   vs brawler seed 3668339987 side 0  hill_locked t=4640  dealt  18 taken 149  refused 160
+WIN   vs brawler seed 3668339987 side 1  hill_locked t=4721  dealt  11 taken 280  refused 160
+WIN   vs holder  seed 2654435761 side 0  hill_locked t=4681  dealt  36 taken 267  refused 160
+WIN   vs holder  seed 2654435761 side 1  hill_locked t=4681  dealt  20 taken 249  refused 160
+WIN   vs holder  seed 1013904226 side 0  hill_locked t=4661  dealt  15 taken 173  refused 160
+WIN   vs holder  seed 1013904226 side 1  hill_locked t=4723  dealt  35 taken 340  refused 160
+WIN   vs holder  seed 3668339987 side 0  hill_locked t=4711  dealt   7 taken 252  refused 160
+WIN   vs holder  seed 3668339987 side 1  hill_locked t=4681  dealt   2 taken 272  refused 160
+WIN   vs random  seed 2654435761 side 0  hill_locked t=4521  dealt  84 taken  12  refused 160
+WIN   vs random  seed 2654435761 side 1  hill       t=4800  dealt 127 taken 442  refused 160
+WIN   vs random  seed 1013904226 side 0  hill_locked t=4681  dealt 136 taken 238  refused 160
+WIN   vs random  seed 1013904226 side 1  hill_locked t=4800  dealt 143 taken 397  refused 160
+WIN   vs random  seed 3668339987 side 0  hill_locked t=4561  dealt  94 taken 182  refused 160
+WIN   vs random  seed 3668339987 side 1  hill_locked t=4641  dealt  41 taken 141  refused 160
+WIN   vs hunter  seed 2654435761 side 0  hill_locked t=4661  dealt   0 taken 236  refused 160
+WIN   vs hunter  seed 2654435761 side 1  eliminated t=1510  dealt 354 taken 171  refused 160
+WIN   vs hunter  seed 1013904226 side 0  hill_locked t=4800  dealt   0 taken 365  refused 160
+WIN   vs hunter  seed 1013904226 side 1  hill_locked t=4800  dealt  88 taken 359  refused 160
+WIN   vs hunter  seed 3668339987 side 0  hill_locked t=4730  dealt   0 taken 423  refused 160
+WIN   vs hunter  seed 3668339987 side 1  hill_locked t=4661  dealt   0 taken 248  refused 160
+
+=== summary ===
+games 24  W-L-D 24-0-0  win rate 100.0%  (637 ms/game)
+  vs brawler  6-0-0
+  vs holder   6-0-0
+  vs random   6-0-0
+  vs hunter   6-0-0
+damage dealt/taken per game 55/260   refused orders per game 160.0   tick errors 0 in 0/24 games   matches aborted 0
+replays verified 24/24
+hint: many refused orders — check lastRefused in the observation (firing while reloading? moving during startup? diving onto a shoal?)
+draft: apc + apc + apc + apc (your draft())
+
+=== profile (wall time in Node) ===
+hello() 24 calls  p50 12.927 ms  max 38.525 ms   draft() max 0.037 ms
+tick()  109529 calls  p50 0.000 ms  p99 0.011 ms  max 19.419 ms
+slowest ticks: 19.419 ms at tick 127 (vs hunter, seed 3668339987, side 0); 10.030 ms at tick 265 (vs random, seed 1013904226, side 1); 8.084 ms at tick 981 (vs holder, seed 1013904226, side 1); 6.998 ms at tick 175 (vs holder, seed 2654435761, side 1); 5.060 ms at tick 163 (vs random, seed 3668339987, side 0)
+WARNING: 120 tick() call(s) took over 0.8 ms here. The ladder runs your code in QuickJS, roughly 15-20x slower than Node's JIT, and stops a tick after 40 interrupt units: those ticks are likely to come back "tick: interrupted" there. Move the work into hello() (precompute) or spread it across ticks.
+rules s2.0.0 · local-test 1.2 · the ladder uses the same engine.

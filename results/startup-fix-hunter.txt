@@ -1,0 +1,16 @@
+WIN   vs hunter  seed 2654435761 side 0  hill_locked t=4661  dealt   0 taken 236  refused 0
+WIN   vs hunter  seed 2654435761 side 1  eliminated t=1510  dealt 354 taken 171  refused 0
+
+=== summary ===
+games 2  W-L-D 2-0-0  win rate 100.0%  (819 ms/game)
+  vs hunter   2-0-0
+damage dealt/taken per game 177/204   refused orders per game 0.0   tick errors 0 in 0/2 games   matches aborted 0
+replays verified 2/2
+draft: apc + apc + apc + apc (your draft())
+
+=== profile (wall time in Node) ===
+hello() 2 calls  p50 12.565 ms  max 12.896 ms   draft() max 0.030 ms
+tick()  6171 calls  p50 0.001 ms  p99 0.016 ms  max 2.173 ms
+slowest ticks: 2.173 ms at tick 839 (vs hunter, seed 2654435761, side 1); 2.169 ms at tick 1041 (vs hunter, seed 2654435761, side 0); 2.166 ms at tick 521 (vs hunter, seed 2654435761, side 0); 2.160 ms at tick 1608 (vs hunter, seed 2654435761, side 0); 2.159 ms at tick 209 (vs hunter, seed 2654435761, side 1)
+WARNING: 11 tick() call(s) took over 0.8 ms here. The ladder runs your code in QuickJS, roughly 15-20x slower than Node's JIT, and stops a tick after 40 interrupt units: those ticks are likely to come back "tick: interrupted" there. Move the work into hello() (precompute) or spread it across ticks.
+rules s2.0.0 · local-test 1.2 · the ladder uses the same engine.
