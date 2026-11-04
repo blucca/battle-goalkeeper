@@ -25,6 +25,14 @@ The initial controller sent zero-throttle orders during the 40-tick startup, pro
 
 **Official live upload smoke:** 400 ticks, active version `capture-v1`, timeouts/exceptions/failures 0. Peak tick budget **1 / 40**; peak any-call budget **192 / 4000**. The arena has queued this version for ranked matches. [Actual receipt](results/live-upload-smoke.json).
 
+## Real-entrant probe — November 4
+
+The original `capture-v1` was tested in one official **unrated, side-swapped set** against the Cup leader, `hassaan-phalanx/v8`, on predetermined seed `387123`. Result: **0–2**. Three opposing MBTs eliminated all four APCs at tick **1189** in each game, while Goalkeeper led the objective score **2028–0**. Goalkeeper fired zero shots; both controllers recorded zero exceptions, timeouts and refused orders.
+
+This reveals a survival gap: static objective holding is vulnerable to elimination by a stronger combat squad. The house-panel results above and this one-seed entrant probe are separate measurements. The first game's replay independently verified under the official SDK (1190 states). The controller remains unchanged.
+
+[Official replay](https://battle.training/watch?match=scr_fdff95848d06) · [Archived result](results/real-entrant-probe-20261104.json) · [Verification](results/real-entrant-verification-20261104.json)
+
 ## Reproduce locally
 
 Requires Node.js. Download the official simulator and test harness into a working directory next to `controller.js`:

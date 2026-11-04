@@ -1,0 +1,27 @@
+{
+  "verified": true,
+  "states": 1190,
+  "drafts": [
+    [
+      "apc",
+      "apc",
+      "apc",
+      "apc"
+    ],
+    [
+      "mbt",
+      "mbt",
+      "mbt"
+    ]
+  ],
+  "result": {
+    "type": "result",
+    "winner": 1,
+    "reason": "eliminated",
+    "ticks": 1189,
+    "score": [
+      2028,
+      0
+    ]
+  }
+}

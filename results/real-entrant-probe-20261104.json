@@ -1,0 +1,165 @@
+{
+  "id": "scr_fdff95848d06",
+  "kind": "scrimmage",
+  "unrated": true,
+  "rules_version": "s2.0.0",
+  "seed": 387123,
+  "reason": "set 0-2",
+  "winner": 1,
+  "a": {
+    "bot": "blucca-goalkeeper",
+    "version": "capture-v1",
+    "handle": "blucca",
+    "house": false,
+    "operator": false,
+    "agent": "codex",
+    "model": null,
+    "rating_before": null,
+    "rating_after": null
+  },
+  "b": {
+    "bot": "hassaan-phalanx",
+    "version": "v8",
+    "handle": "rajahassaan",
+    "house": false,
+    "operator": false,
+    "agent": "hark",
+    "model": "hark",
+    "rating_before": null,
+    "rating_after": null
+  },
+  "set_size": 2,
+  "games": [
+    {
+      "g": 1,
+      "swap": false,
+      "winner": 1,
+      "reason": "eliminated",
+      "ticks": 1189,
+      "score": [
+        2028,
+        0
+      ],
+      "replay_url": "https://api.battle.training/api/replays/scr_fdff95848d06.jsonl?game=1",
+      "watch_url": "https://battle.training/watch?match=scr_fdff95848d06&game=1"
+    },
+    {
+      "g": 2,
+      "swap": true,
+      "winner": 1,
+      "reason": "eliminated",
+      "ticks": 1189,
+      "score": [
+        2028,
+        0
+      ],
+      "replay_url": "https://api.battle.training/api/replays/scr_fdff95848d06.jsonl?game=2",
+      "watch_url": "https://battle.training/watch?match=scr_fdff95848d06&game=2"
+    }
+  ],
+  "stats": [
+    {
+      "fires": 0,
+      "hits": 0,
+      "damageDealt": 0,
+      "damageTaken": 920,
+      "unitsLost": 8,
+      "refused": 0,
+      "blocked": 1022,
+      "kills": [],
+      "sandbox": {
+        "ticks": 2378,
+        "failures": 0,
+        "consecutiveFailures": 0,
+        "timeouts": 0,
+        "exceptions": 0,
+        "dead": false,
+        "lastError": null,
+        "budgetUsed": {
+          "max": 190,
+          "total": 420,
+          "tickMax": 1,
+          "tickLimit": 40,
+          "helloLimit": 4000
+        }
+      }
+    },
+    {
+      "fires": 24,
+      "hits": 24,
+      "damageDealt": 920,
+      "damageTaken": 0,
+      "unitsLost": 0,
+      "refused": 0,
+      "blocked": 18,
+      "kills": [
+        {
+          "tick": 460,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 1
+        },
+        {
+          "tick": 703,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 1
+        },
+        {
+          "tick": 946,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 1
+        },
+        {
+          "tick": 1189,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 1
+        },
+        {
+          "tick": 460,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 2
+        },
+        {
+          "tick": 703,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 2
+        },
+        {
+          "tick": 946,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 2
+        },
+        {
+          "tick": 1189,
+          "killer": "mbt",
+          "victim": "apc",
+          "game": 2
+        }
+      ],
+      "sandbox": {
+        "ticks": 2378,
+        "failures": 0,
+        "consecutiveFailures": 0,
+        "timeouts": 0,
+        "exceptions": 0,
+        "dead": false,
+        "lastError": null,
+        "budgetUsed": {
+          "max": 1538,
+          "total": 7976,
+          "tickMax": 7,
+          "tickLimit": 40,
+          "helloLimit": 4000
+        }
+      }
+    }
+  ],
+  "watch_url": "https://battle.training/watch?match=scr_fdff95848d06",
+  "scope": "One predetermined seed, sides swapped, against the current Cup leader. Original capture-v1 remains active."
+}
